@@ -5,7 +5,7 @@ class Rain{
 				restitution:0.1           
 			}
 			this.rain = Bodies.circle(x,y,5,options);
-			this.radius = 2;
+			this.radius = 5;
 			this.image = loadImage("proc41images/images/water2.png");
 			World.add(world, this.rain);
 		}
